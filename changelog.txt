@@ -1,0 +1,183 @@
+***Version 4.4.1 Release Date: January 07, 2023
+- removed the '/;' added automatically to the end of stream which made special IceCast streams not play
+
+***Version 4.4.0 Release Date: October 23, 2022
+- updated the help documentation
+
+***Version 4.4 Release Date: January 09, 2022
+- added the option to display the current listeners for the standard radio streams
+- added the option to set the maximum number of songs in the history
+
+***Version 4.3 Release Date: October 28, 2021
+- bug fix
+
+***Version 4.2.0 Release Date: October 26, 2021
+- css improvements
+
+***Version 4.2 Release Date: September 22, 2021
+- if you'll use the parameter 'optional_images_path' and the image is not there, it will search the artist image in the default database, too.
+
+***Version 4.1.3.0 Release Date: August 04, 2021
+- code improvements
+
+***Version 4.1.3 Release Date: April 15, 2021
+- js libraries update
+
+***Version 4.1.2 Release Date: February 12, 2021
+- code improvements
+
+***Version 4.1.1 Release Date: February 11, 2021
+- bug fix
+
+***Version 4.1 Release Date: February 09, 2021
+- replaced musicbrainz api with audiodb api
+
+***Version 4.0 Release Date: January 15, 2021
+- moved html5 audio tag inside the script so that it will not be affected by the incorrect usage of mediaelement library
+
+***Version 3.8 Release Date: December 15, 2020
+- radioJar bug fix for history
+
+***Version 3.7 Release Date: November 10, 2020
+- code improvements for IceCast streams
+
+***Version 3.6 Release Date: October 24, 2020
+- new parameter added 'mscp_pro_api_url' which can be used if you want to display the song cover image from MSCP PRO radio server
+
+***Version 3.5.1 Release Date: September 18, 2020
+- code improvements
+
+***Version 3.5 Release Date: September 17, 2020
+- option to display the artist image from the AzuraCast metadata api
+- modification to compensate the Firefox autoplay blocking
+
+***Version 3.4 Release Date: July 15, 2020
+- bug fix when the grab artist image parameter was set to false
+
+***Version 3.3 Release Date: June 04, 2020
+- js & css improvements
+
+***Version 3.2 Release Date: May 27, 2020
+- iceCastFirst parameter has been added
+
+***Version 3.1.0 Release Date: May 22, 2020
+- css modifications
+
+***Version 3.1 Release Date: May 05, 2020
+- "use strict" mode on
+
+***Version 3.0 Release Date: March 20, 2020
+- AzuraCast support added
+- removed Flash fallback
+
+***Version 2.4 Release Date: March 12, 2020
+- new parameter added 'optional_images_path'
+
+***Version 2.3 Release Date: March 04, 2020
+- new parameters added 'url_custom_metdata_file' and 'metadata_file_type'
+
+***Version 2.2.0.1 Release Date: February 04, 2020
+- updates for 2020
+
+***Version 2.2.0 Release Date: July 31, 2019
+- modifications to the example files for HTTPS compatibility
+
+***Version 2.2 Release Date: June 26, 2019
+- replaced the .click(), .mouseover(), .mouseoout() etc functions with the equivalent .on()
+
+***Version 2.1.1 Release Date: May 21, 2019
+- code improvements
+
+***Version 2.1 Release Date: May 14, 2019
+- code improvements for artist image
+
+***Version 2.0 Release Date: May 09, 2019
+- replaced the LastFM API
+
+***Version 1.7.1 Release Date: March 27, 2019
+- updated the FaceBook API to the latest version 3.2
+- updated the help information regarding FaceBook Share
+
+***Version 1.7 Release Date: February 26, 2019
+- code modifications for the display of the artist image
+
+***Version 1.6.9.0 Release Date: January 21, 2019
+- code updates
+
+***Version 1.6.9 Release Date: November 29, 2018
+- increased the history scroll when using mouse wheel
+
+***Version 1.6.8 Release Date: November 15, 2018
+- code improvements
+
+***Version 1.6.7 Release Date: November 01, 2018
+- code improvements
+
+﻿***Version 1.6.6.1 Release Date: October 27, 2018
+- cors update
+
+***Version 1.6.6 Release Date: October 03, 2018
+- updated the FaceBook API to the latest version 3.1
+- added FaceBook share parameters
+
+﻿***Version 1.6.5.0 Release Date: August 15, 2018
+- added setTimeOut for player loading
+
+***Version 1.6.5 Release Date: June 20, 2018
+- Chrome auto-play restriction for HTML5 audio & video tags fix
+- Safari 11 on Mac auto-play restriction for HTML5 audio & video tags fix
+- code improvements for website navigation
+
+﻿***Version 1.6.4 Release Date: May 08, 2018
+- code improvements for reading the metadata file of the HTTPS radio streams
+
+***Version 1.6.3 Release Date: April 17, 2018
+- new parameter added 'preserveOriginalUpperLowerCase' - the current playing song title and author letters will be displayed as they come from the metadata file or the song title will have text-transform:uppercase and author will have text-transform:capitalize
+
+﻿***Version 1.6.2 Release Date: April 10, 2018
+- IOS 11 current playing song refresh problem fix
+
+***Version 1.6.1.1 Release Date: February 25, 2018
+- bug fix
+
+﻿***Version 1.6.1 Release Date: February 23, 2018
+- bug fix which appeared on IOS when the playlist had not scroll
+
+***Version 1.6 Release Date: February 14, 2018
+- code improvements
+
+***Version 1.5 Release Date: January 04, 2018
+- RadioJar support was added
+- code improvements for touch navigation feature
+
+***Version 1.4.4 Release Date: November 28, 2017
+- code improvements for 'current playing song' feature
+
+﻿***Version 1.4.3 Release Date: September 28, 2017
+- code improvements for responsive behavior
+
+***Version 1.4.2.0 Release Date: August 21, 2017
+- code improvements
+
+***Version 1.4.2 Release Date: June 16, 2017
+- code improvements
+
+***Version 1.4.1 Release Date: June 09, 2017
+- code improvements for 'current playing song' feature
+
+***Version 1.4 Release Date: May 16, 2017
+- bug fix: fixed a bug which appeared when the player was set to start minified and there was an IceCast stream playing
+
+***Version 1.3 Release Date: April 04, 2017
+- the last.fm api will display the image on websites which use HTTPS
+- code improvements when 'showOnlyPlayButton' option is set
+
+***Version 1.2 Release Date: March 03, 2017
+- code improvements for 'current playing song' feature
+- code improvements for FaceBook share
+
+***Version 1.1 Release Date: February 10, 2017
+- code improvements for history reading
+- it automatically adds '/;' at the end of the stream which requires these characters
+
+***Version 1.0 Release Date: January 18, 2017
